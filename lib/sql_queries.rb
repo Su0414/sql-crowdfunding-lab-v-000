@@ -13,6 +13,7 @@ end
 
 def selects_the_user_name_age_and_pledge_amount_for_all_pledges_alphabetized_by_name
 "Write your SQL query Here"
+"select users.name , pledges.amount from users, pledges where users.id = pledges.user_id order by name"
 
 end
 
